@@ -21,6 +21,7 @@ public class AllTests {
 		driver.get("http://192.168.21.128/gateway/vision/");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		//Login possitive
 		driver.findElement(By.xpath(".//input[@name='username']")).sendKeys("admin");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.findElement(By.xpath(".//input[@name='password']")).sendKeys("pass");
@@ -37,7 +38,7 @@ public class AllTests {
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		
 		
-			//Model criteria
+			/*//Model criteria
 			driver.findElement(By.xpath(".//a[@href='#filter_models_criteria']")).click();
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			//Organization
@@ -48,12 +49,17 @@ public class AllTests {
 			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 			//Event Criteria
 			driver.findElement(By.xpath(".//a[@href='#filter_events_criteria']")).click();
-			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);*/
 			
 		//Models
 		driver.findElement(By.xpath(".//a[@href='/gateway/vision/models/']")).click();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-			//Model criteria
+		
+			//Export Button
+			driver.findElement(By.xpath(".//a[@id='export_btn']")).click();
+			driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+		
+			/*//Model criteria
 			//driver.findElement(By.xpath("//*[@id='filter_model']/div[2]/div[1]/h4/a")).click();
 			//driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 			//Organization
@@ -64,14 +70,14 @@ public class AllTests {
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			//Event Criteria
 			driver.findElement(By.xpath(".//a[@href='#filter_events_criteria']")).click();
-			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);*/
 			
 		//Asserts
 		driver.findElement(By.xpath(".//*[@href='/gateway/vision/assets/']")).click();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		//Events
+		/*//Events
 		driver.findElement(By.xpath("//*[@id='hornav_events']/a")).click();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);*/
 		//Playbook
 		driver.findElement(By.xpath("//*[@id='hornav_playbook']/a")).click();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
