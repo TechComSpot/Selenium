@@ -1,0 +1,84 @@
+<html xmlns:string="xalan://java.lang.String" xmlns:lxslt="http://xml.apache.org/xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Unit Test Results: All Tests</title>
+<link rel="stylesheet" type="text/css" title="Style" href="stylesheet.css">
+</head>
+<body onload="open('allclasses-frame.html','classListFrame')">
+<h1>Unit Test Results.</h1>
+<table width="100%">
+<tr>
+<td align="left"></td><td align="right">Designed for use with <a href="http://www.junit.org/">JUnit</a> and <a href="http://ant.apache.org/">Ant</a>.</td>
+</tr>
+</table>
+<hr size="1">
+<h2>All Tests</h2>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Class</th><th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="Tests/0_SomeTests.html">SomeTests</a></td><td><a name="playbookPageClicksFine"></a><a href="Tests/0_SomeTests.html#playbookPageClicksFine">playbookPageClicksFine</a></td><td>Success</td><td></td><td>30.448</td>
+</tr>
+<tr valign="top" class="Error">
+<td><a href="Tests/0_SomeTests.html">SomeTests</a></td><td><a name="dashboardPageClicksFine"></a><a href="Tests/0_SomeTests.html#dashboardPageClicksFine">dashboardPageClicksFine</a></td><td>Error</td><td>Unable to locate element: {"method":"id","selector":".//*[@id='6']"}
+Command duration or timeout: 20.12 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:03:00'
+System info: host: 'User-PC', ip: '192.168.1.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=34.0.5, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 407638f7-c095-47c5-a3f6-1e163b3382b6<br>
+<br>
+<code>org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":".//*[@id='6']"}<br>Command duration or timeout: 20.12 seconds<br>For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html<br>Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:03:00'<br>System info: host: 'User-PC', ip: '192.168.1.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'<br>Driver info: org.openqa.selenium.firefox.FirefoxDriver<br>Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=34.0.5, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]<br>Session ID: 407638f7-c095-47c5-a3f6-1e163b3382b6<br>	at java.lang.reflect.Constructor.newInstance(Unknown Source)<br>	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)<br>	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)<br>	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)<br>	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)<br>	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)<br>	at org.openqa.selenium.By$ById.findElement(By.java:214)<br>	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)<br>	at Tests.SomeTests.dashboardPageClicksFine(SomeTests.java:30)<br>Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":".//*[@id='6']"}<br>For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html<br>Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:03:00'<br>System info: host: 'User-PC', ip: '192.168.1.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'<br>Driver info: driver.version: unknown<br>	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/User/AppData/Local/Temp/anonymous8425545310601291414webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9641:26)<br>	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/User/AppData/Local/Temp/anonymous8425545310601291414webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:548:5)<br>
+</code></td><td>38.740</td>
+</tr>
+<tr valign="top" class="Error">
+<td><a href="Tests/0_SomeTests.html">SomeTests</a></td><td><a name="modelsPageWizardStep4DeletingAddedSensorFromSelectedSensorDefinitionsTable"></a><a href="Tests/0_SomeTests.html#modelsPageWizardStep4DeletingAddedSensorFromSelectedSensorDefinitionsTable">modelsPageWizardStep4DeletingAddedSensorFromSelectedSensorDefinitionsTable</a></td><td>Error</td><td>Element not found in the cache - perhaps the page has changed since it was looked up
+Command duration or timeout: 20.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:03:00'
+System info: host: 'User-PC', ip: '192.168.1.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=34.0.5, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b7eb3e42-ed43-4ae5-9677-c69934a1386a<br>
+<br>
+<code>org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up<br>Command duration or timeout: 20.04 seconds<br>For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html<br>Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:03:00'<br>System info: host: 'User-PC', ip: '192.168.1.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'<br>Driver info: org.openqa.selenium.firefox.FirefoxDriver<br>Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=34.0.5, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]<br>Session ID: b7eb3e42-ed43-4ae5-9677-c69934a1386a<br>	at java.lang.reflect.Constructor.newInstance(Unknown Source)<br>	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)<br>	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)<br>	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)<br>	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)<br>	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)<br>	at Tests.SomeTests.modelsPageWizardStep4DeletingAddedSensorFromSelectedSensorDefinitionsTable(SomeTests.java:135)<br>Caused by: org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up<br>For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html<br>Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:03:00'<br>System info: host: 'User-PC', ip: '192.168.1.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'<br>Driver info: driver.version: unknown<br>	at &lt;anonymous class&gt;.fxdriver.cache.getElementAt(resource://fxdriver/modules/web-element-cache.js:8329:1)<br>	at &lt;anonymous class&gt;.Utils.getElementAt(file:///C:/Users/User/AppData/Local/Temp/anonymous8780265178204850736webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:7922:10)<br>	at &lt;anonymous class&gt;.fxdriver.preconditions.visible(file:///C:/Users/User/AppData/Local/Temp/anonymous8780265178204850736webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:8957:11)<br>	at &lt;anonymous class&gt;.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/User/AppData/Local/Temp/anonymous8780265178204850736webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11618:15)<br>	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/User/AppData/Local/Temp/anonymous8780265178204850736webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11635:11)<br>	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/User/AppData/Local/Temp/anonymous8780265178204850736webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:548:5)<br>
+</code></td><td>43.809</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="Tests/0_SomeTests.html">SomeTests</a></td><td><a name="assetsPageClicksFine"></a><a href="Tests/0_SomeTests.html#assetsPageClicksFine">assetsPageClicksFine</a></td><td>Success</td><td></td><td>27.727</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="Tests/0_SomeTests.html">SomeTests</a></td><td><a name="modelsPageClicksFine"></a><a href="Tests/0_SomeTests.html#modelsPageClicksFine">modelsPageClicksFine</a></td><td>Success</td><td></td><td>28.555</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="Tests/0_SomeTests.html">SomeTests</a></td><td><a name="eventsPageClicksFine"></a><a href="Tests/0_SomeTests.html#eventsPageClicksFine">eventsPageClicksFine</a></td><td>Success</td><td></td><td>26.415</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="Tests/0_SomeTests.html">SomeTests</a></td><td><a name="adminPageClicksFine"></a><a href="Tests/0_SomeTests.html#adminPageClicksFine">adminPageClicksFine</a></td><td>Success</td><td></td><td>31.671</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="Tests/0_SomeTests.html">SomeTests</a></td><td><a name="loginSuccess"></a><a href="Tests/0_SomeTests.html#loginSuccess">loginSuccess</a></td><td>Success</td><td></td><td>23.740</td>
+</tr>
+<tr valign="top" class="Error">
+<td><a href="Tests/0_SomeTests.html">SomeTests</a></td><td><a name="modelsWizardStep4"></a><a href="Tests/0_SomeTests.html#modelsWizardStep4">modelsWizardStep4</a></td><td>Error</td><td>Element is not currently visible and so may not be interacted with
+Command duration or timeout: 15.07 seconds
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:03:00'
+System info: host: 'User-PC', ip: '192.168.1.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=34.0.5, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 5b821fee-e6e0-4d49-a4eb-1e86bff7e5e6<br>
+<br>
+<code>org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with<br>Command duration or timeout: 15.07 seconds<br>Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:03:00'<br>System info: host: 'User-PC', ip: '192.168.1.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'<br>Driver info: org.openqa.selenium.firefox.FirefoxDriver<br>Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=34.0.5, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]<br>Session ID: 5b821fee-e6e0-4d49-a4eb-1e86bff7e5e6<br>	at java.lang.reflect.Constructor.newInstance(Unknown Source)<br>	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)<br>	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)<br>	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)<br>	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)<br>	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)<br>	at Tests.SomeTests.modelsWizardStep4(SomeTests.java:70)<br>Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with<br>Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:03:00'<br>System info: host: 'User-PC', ip: '192.168.1.4', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'<br>Driver info: driver.version: unknown<br>	at &lt;anonymous class&gt;.fxdriver.preconditions.visible(file:///C:/Users/User/AppData/Local/Temp/anonymous540647925561319799webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:8959:12)<br>	at &lt;anonymous class&gt;.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/User/AppData/Local/Temp/anonymous540647925561319799webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11618:15)<br>	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/User/AppData/Local/Temp/anonymous540647925561319799webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11635:11)<br>	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/User/AppData/Local/Temp/anonymous540647925561319799webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:548:5)<br>
+</code></td><td>47.776</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="devmate/1_Tests.html">Tests</a></td><td><a name="SecondScenario"></a><a href="devmate/1_Tests.html#SecondScenario">SecondScenario</a></td><td>Success</td><td></td><td>8.949</td>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a href="devmate/1_Tests.html">Tests</a></td><td><a name="FirstScenario"></a><a href="devmate/1_Tests.html#FirstScenario">FirstScenario</a></td><td>Success</td><td></td><td>6.985</td>
+</tr>
+</table>
+</body>
+</html>

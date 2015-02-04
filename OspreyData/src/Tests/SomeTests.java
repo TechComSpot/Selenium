@@ -181,6 +181,26 @@ public class SomeTests {
 						driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 						logout();
 		}
+		
+		@Test public void playbookPageDeletePlaybookIsFine ()
+		{
+			
+			loginSuccess();
+			//Playbook
+					driver.findElement(By.xpath("//*[@id='hornav_playbook']/a")).click();
+					driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+					//Create New Playbook
+					driver.findElement(By.xpath(".//a[@href='/gateway/vision/playbook/create']")).click();
+					driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+					//Enter Basic Info
+					driver.findElement(By.xpath(".//input[@id='playbook-name']")).sendKeys("#1TestPlaybook");
+					driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+					driver.findElement(By.xpath(".//textarea[@id='playbook-description']")).sendKeys("Some description for #1TestPlaybook");
+					driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+					driver.findElement(By.xpath(".//button[@name='save']")).click();
+					driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+					logout();
+		}
 
 		
 		@Test public void adminPageClicksFine ()

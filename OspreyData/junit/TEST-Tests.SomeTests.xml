@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="4" failures="0" hostname="User-PC" name="Tests.SomeTests" skipped="0" tests="10" time="401.309" timestamp="2015-01-28T16:28:06">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="env.TVT" value="C:\Program Files (x86)\Lenovo" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="env.BPADir" value="C:\Program Files (x86)\Microsoft Team Foundation Server 2012 Power Tools\Best Practices Analyzer\" />
+    <property name="env.PROMPT" value="$P$G" />
+    <property name="os.name" value="Windows 7" />
+    <property name="env.FP_NO_HOST_CHECK" value="NO" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_25\lib\resources.jar;C:\Program Files\Java\jre1.8.0_25\lib\rt.jar;C:\Program Files\Java\jre1.8.0_25\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_25\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_25\lib\jce.jar;C:\Program Files\Java\jre1.8.0_25\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_25\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_25\classes" />
+    <property name="env.COMPUTERNAME" value="USER-PC" />
+    <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+    <property name="env.ACPath" value="C:\Program Files (x86)\Lenovo\Access Connections\" />
+    <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="D:\eclipse\plugins\org.apache.ant_1.9.2.v201404171502" />
+    <property name="java.runtime.version" value="1.8.0_25-b18" />
+    <property name="env.HOMEPATH" value="\Users\User" />
+    <property name="user.name" value="User" />
+    <property name="user.language" value="en" />
+    <property name="env.windows_tracing_flags" value="3" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_25\bin" />
+    <property name="ant.project.default-target" value="build" />
+    <property name="ant.project.name" value="OspreyData" />
+    <property name="java.version" value="1.8.0_25" />
+    <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 58 Stepping 9, GenuineIntel" />
+    <property name="user.timezone" value="Europe/Helsinki" />
+    <property name="env.TEMP" value="C:\Users\User\AppData\Local\Temp" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_25\lib\endorsed" />
+    <property name="env.JDK_HOME" value="C:\Program Files\Java\jdk1.8.0_31" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="env.HOMEDRIVE" value="C:" />
+    <property name="sun.jnu.encoding" value="Cp1251" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="env.VS110COMNTOOLS" value="C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="env.TFSPowerToolDir" value="C:\Program Files (x86)\Microsoft Team Foundation Server 2012 Power Tools\" />
+    <property name="java.class.version" value="52.0" />
+    <property name="ant.file.OspreyData" value="C:\Users\User\OspreyDataAutomTests\OspreyData\build.xml" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_25" />
+    <property name="env.PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\PowerShell\Modules\" />
+    <property name="env.APPDATA" value="C:\Users\User\AppData\Roaming" />
+    <property name="env.PUBLIC" value="C:\Users\Public" />
+    <property name="env.windows_tracing_logfile" value="C:\BVTBin\Tests\installpackage\csilogfile.log" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="env.ComSpec" value="C:\Windows\system32\cmd.exe" />
+    <property name="env.OS" value="Windows_NT" />
+    <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+    <property name="ant.file" value="C:\Users\User\OspreyDataAutomTests\OspreyData\build.xml" />
+    <property name="os.version" value="6.1" />
+    <property name="ant.file.type.OspreyData" value="file" />
+    <property name="env.ProgramW6432" value="C:\Program Files" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="25.25-b02" />
+    <property name="user.variant" value="" />
+    <property name="env.USERPROFILE" value="C:\Users\User" />
+    <property name="ant.library.dir" value="D:\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="env.PhoenixPath" value="C:\Program Files (x86)\AllWinnertech\PhoenixSuit\" />
+    <property name="env.JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_31" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="env.TMP" value="C:\Users\User\AppData\Local\Temp" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="user.script" value="" />
+    <property name="user.home" value="C:\Users\User" />
+    <property name="target" value="1.8" />
+    <property name="env.ProgramData" value="C:\ProgramData" />
+    <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+    <property name="env.SESSIONNAME" value="Console" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="env.CLASSPATH" value=".;" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_31/bin/server;C:/Program Files/Java/jre1.8.0_31/bin;C:/Program Files/Java/jre1.8.0_31/lib/amd64;C:\ProgramData\Oracle\Java\javapath;\lib;C:\Program Files (x86)\Java\jre1.8.0_25\bin;;C:\Program Files (x86)\AllWinnertech\PhoenixSuit\;D:\eclipse;;." />
+    <property name="env.NUMBER_OF_PROCESSORS" value="4" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.2 compiled on July 8 2013" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner Tests.SomeTests filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\User\OspreyDataAutomTests\OspreyData\junit\TEST-Tests.SomeTests.xml crashfile=C:\Users\User\OspreyDataAutomTests\OspreyData\junitvmwatcher3672101071539525680.properties propsfile=C:\Users\User\OspreyDataAutomTests\OspreyData\junit6063584753278522255.properties" />
+    <property name="java.class.path" value="C:\Users\User\OspreyDataAutomTests\OspreyData\bin;C:\Users\User\workspace\lib\junit-4.12.jar;C:\Users\User\workspace\lib\selenium-java-2.44.0.jar;C:\Users\User\workspace\lib\selenium-server-standalone-2.44.0.jar;C:\Users\User\OspreyDataAutomTests\OspreyData;D:\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-launcher.jar;D:\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant.jar;D:\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-junit.jar;D:\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-junit4.jar" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="env.LOGONSERVER" value="\\USER-PC" />
+    <property name="env.windir" value="C:\Windows" />
+    <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.os.patch.level" value="Service Pack 1" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.ProgramFiles" value="C:\Program Files" />
+    <property name="env.ANT_HOME" value="D:\eclipse\plugins\org.apache.ant_1.9.2.v201404171502" />
+    <property name="env.PROCESSOR_REVISION" value="3a09" />
+    <property name="java.io.tmpdir" value="C:\Users\User\AppData\Local\Temp\" />
+    <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="env.SystemRoot" value="C:\Windows" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_25\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="user.dir" value="C:\Users\User\OspreyDataAutomTests\OspreyData" />
+    <property name="env.LOCALAPPDATA" value="C:\Users\User\AppData\Local" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+    <property name="env.Path" value="C:/Program Files/Java/jre1.8.0_31/bin/server;C:/Program Files/Java/jre1.8.0_31/bin;C:/Program Files/Java/jre1.8.0_31/lib/amd64;C:\ProgramData\Oracle\Java\javapath;\lib;C:\Program Files (x86)\Java\jre1.8.0_25\bin;;C:\Program Files (x86)\AllWinnertech\PhoenixSuit\;D:\eclipse;" />
+    <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="C:\Users\User\AppData\Local\Temp\null1470976491" />
+    <property name="basedir" value="C:\Users\User\OspreyDataAutomTests\OspreyData" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="D:\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant.jar" />
+    <property name="env.USERNAME" value="User" />
+    <property name="source" value="1.8" />
+    <property name="env.SystemDrive" value="C:" />
+    <property name="file.encoding" value="Cp1251" />
+    <property name="env.COMMPath" value="C:\Program Files\Lenovo\Communications Utility" />
+    <property name="env.USERDOMAIN" value="User-PC" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="ant.project.invoked-targets" value="build,junitreport,Tests,SomeTests,SomeTests.useCase2,SomeTests.useCase,SomeTests.playbookIsFine,SomeTests.allTests" />
+    <property name="env.PROCESSOR_LEVEL" value="6" />
+  </properties>
+  <testcase classname="Tests.SomeTests" name="playbookPageClicksFine" time="39.58" />
+  <testcase classname="Tests.SomeTests" name="dashboardPageClicksFine" time="40.684">
+    <error message="Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;6&apos;]&quot;}&#xa;Command duration or timeout: 20.08 seconds&#xa;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#xa;Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf&apos;, time: &apos;2014-10-23 20:03:00&apos;&#xa;System info: host: &apos;User-PC&apos;, ip: &apos;178.137.198.207&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_25&apos;&#xa;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#xa;Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=35.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#xa;Session ID: ec9e8793-1096-42de-a5ce-2b5d2af245cd" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;6&apos;]&quot;}
+Command duration or timeout: 20.08 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf&apos;, time: &apos;2014-10-23 20:03:00&apos;
+System info: host: &apos;User-PC&apos;, ip: &apos;178.137.198.207&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_25&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=35.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ec9e8793-1096-42de-a5ce-2b5d2af245cd
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:393)
+	at org.openqa.selenium.By$ById.findElement(By.java:214)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at Tests.SomeTests.dashboardPageClicksFine(SomeTests.java:30)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;6&apos;]&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf&apos;, time: &apos;2014-10-23 20:03:00&apos;
+System info: host: &apos;User-PC&apos;, ip: &apos;178.137.198.207&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_25&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/User/AppData/Local/Temp/anonymous7930923004092695285webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9641:26)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/User/AppData/Local/Temp/anonymous7930923004092695285webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:548:5)
+</error>
+  </testcase>
+  <testcase classname="Tests.SomeTests" name="modelsPageWizardStep4DeletingAddedSensorFromSelectedSensorDefinitionsTable" time="35.795">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.setSize(RemoteWebDriver.java:795)
+	at Tests.SomeTests.modelsPageWizardStep4DeletingAddedSensorFromSelectedSensorDefinitionsTable(SomeTests.java:139)
+</error>
+  </testcase>
+  <testcase classname="Tests.SomeTests" name="assetsPageClicksFine" time="34.476" />
+  <testcase classname="Tests.SomeTests" name="modelsPageClicksFine" time="47.615">
+    <error message="Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//a[@id=&apos;export_btn&apos;]&quot;}&#xa;Command duration or timeout: 20.06 seconds&#xa;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#xa;Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf&apos;, time: &apos;2014-10-23 20:03:00&apos;&#xa;System info: host: &apos;User-PC&apos;, ip: &apos;178.137.198.207&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_25&apos;&#xa;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#xa;Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=35.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#xa;Session ID: aa892594-c50c-42b9-bc11-e974f0779c97" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//a[@id=&apos;export_btn&apos;]&quot;}
+Command duration or timeout: 20.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf&apos;, time: &apos;2014-10-23 20:03:00&apos;
+System info: host: &apos;User-PC&apos;, ip: &apos;178.137.198.207&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_25&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=35.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: aa892594-c50c-42b9-bc11-e974f0779c97
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at Tests.SomeTests.modelsPageClicksFine(SomeTests.java:110)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//a[@id=&apos;export_btn&apos;]&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf&apos;, time: &apos;2014-10-23 20:03:00&apos;
+System info: host: &apos;User-PC&apos;, ip: &apos;178.137.198.207&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_25&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/User/AppData/Local/Temp/anonymous4728049162834565797webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9641:26)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/User/AppData/Local/Temp/anonymous4728049162834565797webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:548:5)
+</error>
+  </testcase>
+  <testcase classname="Tests.SomeTests" name="eventsPageClicksFine" time="42.744" />
+  <testcase classname="Tests.SomeTests" name="adminPageClicksFine" time="35.565" />
+  <testcase classname="Tests.SomeTests" name="playbookPageDeletePlaybookIsFine" time="49.78" />
+  <testcase classname="Tests.SomeTests" name="loginSuccess" time="22.022" />
+  <testcase classname="Tests.SomeTests" name="modelsWizardStep4" time="52.811">
+    <error message="Element is not currently visible and so may not be interacted with&#xa;Command duration or timeout: 15.05 seconds&#xa;Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf&apos;, time: &apos;2014-10-23 20:03:00&apos;&#xa;System info: host: &apos;User-PC&apos;, ip: &apos;178.137.198.207&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_25&apos;&#xa;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#xa;Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=35.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#xa;Session ID: dda872ac-c571-46c8-865d-de614173b571" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 15.05 seconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf&apos;, time: &apos;2014-10-23 20:03:00&apos;
+System info: host: &apos;User-PC&apos;, ip: &apos;178.137.198.207&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_25&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=35.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: dda872ac-c571-46c8-865d-de614173b571
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at Tests.SomeTests.modelsWizardStep4(SomeTests.java:70)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf&apos;, time: &apos;2014-10-23 20:03:00&apos;
+System info: host: &apos;User-PC&apos;, ip: &apos;178.137.198.207&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_25&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.fxdriver.preconditions.visible(file:///C:/Users/User/AppData/Local/Temp/anonymous7194814668032844610webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:8959:12)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/User/AppData/Local/Temp/anonymous7194814668032844610webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11618:15)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/User/AppData/Local/Temp/anonymous7194814668032844610webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11635:11)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/User/AppData/Local/Temp/anonymous7194814668032844610webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:548:5)
+</error>
+  </testcase>
+  <system-out><![CDATA[Models Page Clicks Fine
+Dashboard Operational Tab Works Fine
+Dashboard Financial Tab Works Fine
+Assets Page Clicks Fine
+Models Page Clicks Fine
+Models Page Clicks Fine
+Events Page Clicks Fine
+Models Page Clicks Fine
+Admin Page Clicks Fine
+Models Page Clicks Fine
+Models Page Clicks Fine
+Models Page Clicks Fine
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
